@@ -1,0 +1,24 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",	
+	"configurations": [
+		{
+			"name": "Cortex Debug",
+			"cwd": "${workspaceRoot}",
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "openocd",
+			"interface": "swd",
+			"executable": "./build/STM32_DataBusMaster.elf",			
+			"configFiles": [
+				"C:/xpack-openocd-0.11.0-3/scripts/interface/stlink-v2.cfg",
+				"C:/xpack-openocd-0.11.0-3/scripts/target/stm32f1x.cfg"
+			],
+			//"openOCDLaunchCommands": ["init", "reset init"],
+			"runToMain": true,
+			"svdFile": ".STM32F1_svd_V1.2/STM32F103.svd",
+		}
+	]
+}

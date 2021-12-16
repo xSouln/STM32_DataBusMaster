@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "vscode_stm32_c_cpp_properties",
+            "compilerPath": "C:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe",
+            "browse": {
+                "path": [
+                    "C:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/",
+                    "C:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/",
+                    "C:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/**",
+                    "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/STM32F1xx_HAL_Driver/Inc/",
+                    "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/",
+                    "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/",
+                    "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/CMSIS/Include/",
+                    "C:/Users/rekuts/Desktop/STM32_DataBusTest/STM32_DataBusMaster/Inc/"
+                ]
+            },
+            "includePath": [
+                "C:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/",
+                "C:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/",
+                "C:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/**",
+                "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/STM32F1xx_HAL_Driver/Inc/",
+                "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/",
+                "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/",
+                "C:/Users/rekuts/STM32Cube/Repository/STM32Cube_FW_F1_V1.6.1/Drivers/CMSIS/Include/",
+                "C:/Users/rekuts/Desktop/STM32_DataBusTest/STM32_DataBusMaster/Inc/"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xB",
+                "M3",
+                "GCC_ARMCM3"
+            ],
+            "cppStandard": "c++17",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

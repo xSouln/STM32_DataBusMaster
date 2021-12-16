@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1271520564</fileChecksum>
+    <configuration>
+        <name>STM32_DataBusMaster</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\startup_stm32f103xb.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Src\spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\Src\tim.c</file>
+            <file>$PROJ_DIR$\..\Src\gpio.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32f1xx_it.c</file>
+            <file>$PROJ_DIR$\..\Src\dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Src\usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_tim.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_msp.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\tim.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\system_stm32f1xx.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_cortex.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_pwr.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\usart.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_tim_ex.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_it.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_dma.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_rcc.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_flash.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Exe\STM32_DataBusMaster.hex</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\spi.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_rcc_ex.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_uart.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Exe\STM32_DataBusMaster.out</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\STM32_DataBusMaster.pbd</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_flash_ex.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_gpio.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_gpio_ex.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_spi_ex.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_spi.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\tim.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_gpio_ex.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\dma.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\usart.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\system_stm32f1xx.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\dma.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\main.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_it.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_spi_ex.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\spi.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\STM32_DataBusMaster\Obj\stm32f1xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\Inc\main.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
+            <file>$PROJ_DIR$\..\Inc\dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS\Include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32f1xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\Inc\spi.h</file>
+            <file>$PROJ_DIR$\..\Inc\gpio.h</file>
+            <file>$PROJ_DIR$\..\Inc\tim.h</file>
+            <file>$PROJ_DIR$\..\Inc\usart.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32f1xx_it.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103 106 77 83 95 85 102 108 84 86 101 104 89 96 109 107 93 110 98 94 111 87 88 90 100 78 91 79 81 97 82 80 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83 81 84 82 77 78 79 80 86 97 89 107 93 110 98 94 111 87 88 90 100 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 90 94 81 84 82 77 110 87 78 79 80 86 93 98 111 88 100 97 89 83 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 98 81 84 82 88 78 79 80 86 93 111 100 97 89 107 110 94 87 90 91 99 105 85 83 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89 96 104 77 101 86 109 83 95 85 108 84 103 102 107 93 110 98 94 111 87 88 90 100 78 91 79 81 97 82 80 99 105 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 98 81 84 82 88 78 79 80 86 107 93 111 100 97 89 83 110 94 87 90 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32f103xb.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 93 100 81 84 82 77 98 88 78 79 80 86 107 110 94 87 90 97 89 83 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 81 84 82 83 78 79 80 86 97 89 107 93 110 98 94 111 87 88 90 100 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 81 84 82 78 79 80 86 83 97 89 107 93 110 98 94 111 87 88 90 100 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 77 93 100 95 85 102 98 88 103 106 107 110 94 87 90 108 84 86 113 83 101 104 89 96 109 112 78 91 79 81 97 82 80 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 98 81 84 82 88 78 79 80 86 93 111 100 97 89 107 110 94 87 90 91 99 105 85 83 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 88 98 95 85 102 93 111 100 103 106 107 110 94 87 90 108 84 86 92 83 101 104 89 96 109 114 78 91 79 81 97 82 80 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 84 82 77 78 79 80 86 83 97 89 85 107 93 110 98 94 111 87 88 90 100 91 99 105 113 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108 83 86 114 77 84 85 92 113 95 103 102 106 112 115 107 93 110 98 94 111 87 88 90 100 101 104 89 96 109 78 91 79 81 97 82 80 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 88 78 79 77 104 89 96 98 86 101 93 111 100 85 108 107 110 94 87 90 91 84 105 97 82 80 99 83 95 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 95 85 102 103 106 116 83 108 84 86 91 107 93 110 98 94 111 87 88 90 100 101 104 89 96 109 78 79 81 97 82 80 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83 81 84 82 77 78 79 80 86 97 89 85 107 93 110 98 94 111 87 88 90 100 91 99 105 92 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100 93 111 81 84 82 77 98 88 78 79 80 86 107 110 94 87 90 97 89 83 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 110 84 87 107 94 90 91 99 105 93 98 111 88 100 78 79 81 97 82 80 89 86 83 95 85 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 84 82 77 83 78 79 80 86 97 89 107 93 110 98 94 111 87 88 90 100 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 83 95 85 102 103 106 108 84 86 113 107 93 110 98 94 111 87 88 90 100 101 104 89 96 109 115 78 91 79 81 97 82 80 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 98 81 84 82 88 78 79 80 86 107 93 111 100 97 89 83 110 94 87 90 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 98 81 84 82 88 78 79 80 86 93 111 100 97 89 107 110 94 87 90 91 99 105 85 83 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 84 82 77 78 79 80 86 83 97 89 107 93 110 98 94 111 87 88 90 100 91 99 105 85 95 108 101 104 96 109 103 102 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM32_DataBusMaster\Exe\STM32_DataBusMaster.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
