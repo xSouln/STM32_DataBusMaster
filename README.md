@@ -5,7 +5,7 @@ Cortex-Debug
 Makefile Tools
 windows-arm-none-eabi
 
-скачать дополнительные файлы и прописать переменные
+скачать дополнительные файлы и прописать переменные:
 install OpenOCD - сервер для взаимодействия с программатором; пример переменной среды (C:\xpack-openocd-0.11.0-3\bin)
 install gcc-arm-none-eabi-10.3-2021.10 - компилятор; пример переменной среды (C:\gcc-arm-none-eabi-10.3-2021.10\bin)
 install xpack-windows-build-tools-4.2.1-2 - мэйк; пример переменной среды (C:\xpack-openocd-0.11.0-3\bin)
